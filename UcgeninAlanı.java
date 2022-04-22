@@ -1,23 +1,23 @@
 import java.util.Scanner;
 
-public class UcgeninAlanı {
+public class UcgeninAlanÄ± {
 
 	public static void main(String[] args) {
 		
-		//Üç kenar uzunluğunu kullanıcıdan aldığınız üçgenin alanını hesaplayan programı yazınız.
+		//ÃœÃ§ kenar uzunluÄŸunu kullanÄ±cÄ±dan aldÄ±ÄŸÄ±nÄ±z Ã¼Ã§genin alanÄ±nÄ± hesaplayan programÄ± yazÄ±nÄ±z.
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.print("Üçgenin ilk kenarını giriniz : ");
+		System.out.print("ÃœÃ§genin ilk kenarÄ±nÄ± giriniz : ");
 		int a = scan.nextInt();
-		System.out.println("Üçgenin ikinci kenarını giriniz : ");
+		System.out.print("ÃœÃ§genin ikinci kenarÄ±nÄ± giriniz : ");
 		int b = scan.nextInt();
-		System.out.println("Üçgenin üçüncü kenarını giriniz : ");
+		System.out.print("ÃœÃ§genin Ã¼Ã§Ã¼ncÃ¼ kenarÄ±nÄ± giriniz : ");
 		int c = scan.nextInt();
 
 		int u = (a + b + c) / 2;
 		int alan = (u * (u - a) * (u - b) * (u - c));
-		System.out.println("Üçgenin alanı : " + Math.sqrt(alan));
+		System.out.println("ÃœÃ§genin alanÄ± : " + Math.sqrt(alan));
 
 	}
 
