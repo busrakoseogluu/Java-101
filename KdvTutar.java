@@ -3,26 +3,15 @@ import java.util.Scanner;
 public class KdvTutar {
 
 	public static void main(String[] args) {
-		/*
-		 * Java ile kullanıcıdan alınan para değerinin KDV'li fiyatını ve KDV tutarını
-		 * hesaplayıp ekrana bastıran programı yazın.
-		 * 
-		 * (Not : KDV tutarını 18% olarak alın)
-		 * 
-		 * KDV'siz Fiyat = 10;
-		 * 
-		 * KDV'li Fiyat = 11.8;
-		 * 
-		 * KDV tutarı = 1.8;
-		 * 
-		 * Ödev Eğer girilen tutar 0 ve 1000 TL arasında ise KDV oranı %18 , tutar 1000
-		 * TL'den büyük ise KDV oranını %8 olarak KDV tutarı hesaplayan programı
-		 * yazınız.
+		
+		 /* Ã–dev EÄŸer girilen tutar 0 ve 1000 TL arasÄ±nda ise KDV oranÄ± %18 , tutar 1000
+		 * TL'den bÃ¼yÃ¼k ise KDV oranÄ±nÄ± %8 olarak KDV tutarÄ± hesaplayan programÄ±
+		 * yazÄ±nÄ±z.
 		 */
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.print("Hesaplanacak tutarı giriniz : ");
+		System.out.print("Hesaplanacak tutarÄ± giriniz : ");
 		int sayi = scan.nextInt();
 
 		double kdv;
@@ -30,16 +19,16 @@ public class KdvTutar {
 		if (sayi <= 1000 && sayi >= 0) {
 			kdv = 0.18;
 			System.out.println("KDV'siz fiyat : " + sayi);
-			System.out.println("KDV oranı : " + kdv);
+			System.out.println("KDV oranÄ± : " + kdv);
 			System.out.println("KDV'li fiyat : " + (sayi + (sayi * kdv)));
-			System.out.println("KDV tutarı : " + sayi * kdv);
+			System.out.println("KDV tutarÄ± : " + sayi * kdv);
 
 		} else {
 			kdv = 0.08;
 			System.out.println("KDV'siz fiyat : " + sayi);
-			System.out.println("KDV oranı : " + kdv);
+			System.out.println("KDV oranÄ± : " + kdv);
 			System.out.println("KDV'li fiyat : " + (sayi + (sayi * kdv)));
-			System.out.println("KDV tutarı : " + sayi * kdv);
+			System.out.println("KDV tutarÄ± : " + sayi * kdv);
 
 		}
 
