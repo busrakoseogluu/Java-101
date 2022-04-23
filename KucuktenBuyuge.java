@@ -6,11 +6,11 @@ public class KucuktenBuyuge {
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.print("İlk sayıyı giriniz : ");
+		System.out.print("Ä°lk sayÄ±yÄ± giriniz : ");
 		int a = scan.nextInt();
-		System.out.print("İkinci sayıyı giriniz : ");
+		System.out.print("Ä°kinci sayÄ±yÄ± giriniz : ");
 		int b = scan.nextInt();
-		System.out.print("Üçüncü sayıyı giriniz : ");
+		System.out.print("ÃœÃ§Ã¼ncÃ¼ sayÄ±yÄ± giriniz : ");
 		int c = scan.nextInt();
 
 		System.out.println("a = " + a + " b = " + b + " c = " + c);
