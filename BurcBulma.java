@@ -1,120 +1,120 @@
 import java.util.Scanner;
 
 public class BurcBulma {
-	/*
-	 * Koç Burcu : 21 Mart - 20 Nisan
+	/*Switch Case kullanmadan burÃ§ bulan program
+	 * KoÃ§ Burcu : 21 Mart - 20 Nisan
 	 * 
-	 * Boğa Burcu : 21 Nisan - 21 Mayıs
+	 * BoÄŸa Burcu : 21 Nisan - 21 MayÄ±s
 	 * 
-	 * İkizler Burcu : 22 Mayıs - 22 Haziran
+	 * Ä°kizler Burcu : 22 MayÄ±s - 22 Haziran
 	 * 
-	 * Yengeç Burcu : 23 Haziran - 22 Temmuz
+	 * YengeÃ§ Burcu : 23 Haziran - 22 Temmuz
 	 * 
-	 * Aslan Burcu : 23 Temmuz - 22 Ağustos
+	 * Aslan Burcu : 23 Temmuz - 22 AÄŸustos
 	 * 
-	 * Başak Burcu : 23 Ağustos - 22 Eylül
+	 * BaÅŸak Burcu : 23 AÄŸustos - 22 EylÃ¼l
 	 * 
-	 * Terazi Burcu : 23 Eylül - 22 Ekim
+	 * Terazi Burcu : 23 EylÃ¼l - 22 Ekim
 	 * 
-	 * Akrep Burcu : 23 Ekim - 21 Kasım
+	 * Akrep Burcu : 23 Ekim - 21 KasÄ±m
 	 * 
-	 * Yay Burcu : 22 Kasım - 21 Aralık
+	 * Yay Burcu : 22 KasÄ±m - 21 AralÄ±k
 	 * 
-	 * Oğlak Burcu : 22 Aralık - 21 Ocak
+	 * OÄŸlak Burcu : 22 AralÄ±k - 21 Ocak
 	 * 
-	 * Kova Burcu : 22 Ocak - 19 Şubat
+	 * Kova Burcu : 22 Ocak - 19 Åubat
 	 * 
-	 * Balık Burcu : 20 Şubat - 20 Mart
+	 * BalÄ±k Burcu : 20 Åubat - 20 Mart
 	 */
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.print("Doğduğunuz ay : ");
+		System.out.print("DoÄŸduÄŸunuz ay : ");
 		int ay = scan.nextInt();
 
-		System.out.print("Doğduğunuz gün : ");
+		System.out.print("DoÄŸduÄŸunuz gÃ¼n : ");
 		int gun = scan.nextInt();
 
 		if (ay == 1) {
 			if (gun >= 1 && gun <= 21) {
-				System.out.println("Oğlak Burcusunuz.");
+				System.out.println("OÄŸlak Burcusunuz.");
 			} else if (gun >= 22 && gun <= 31) {
 				System.out.println("Kova Burcusunuz.");
 			} else {
-				System.out.println("Yanlış işlem yaptınız. Tekrar deneyiniz.");
+				System.out.println("YanlÄ±ÅŸ iÅŸlem yaptÄ±nÄ±z. Tekrar deneyiniz.");
 			}
 		}
 		if (ay == 2) {
 			if (gun >= 1 && gun <= 19) {
 				System.out.println("Kova Burcusunuz.");
 			} else if (gun <= 28) {
-				System.out.println("Balık Burcusunuz.");
+				System.out.println("BalÄ±k Burcusunuz.");
 			} else {
-				System.out.println("Yanlış işlem yaptınız. Tekrar deneyiniz.");
+				System.out.println("YanlÄ±ÅŸ iÅŸlem yaptÄ±nÄ±z. Tekrar deneyiniz.");
 			}
 		}
 		if (ay == 3) {
 			if (gun >= 1 && gun <= 20) {
-				System.out.println("Balık burcusunuz.");
+				System.out.println("BalÄ±k burcusunuz.");
 			} else if (gun <= 31) {
-				System.out.println("Koç burcusunuz.");
+				System.out.println("KoÃ§ burcusunuz.");
 			} else {
-				System.out.println("Yanlış işlem yaptınız. Tekrar deneyiniz.");
+				System.out.println("YanlÄ±ÅŸ iÅŸlem yaptÄ±nÄ±z. Tekrar deneyiniz.");
 			}
 		}
 		if (ay == 4) {
 			if (gun >= 1 && gun <= 20) {
-				System.out.println("Koç burcusunuz.");
+				System.out.println("KoÃ§ burcusunuz.");
 			} else if (gun <= 30) {
-				System.out.println("Boğa burcusunuz.");
+				System.out.println("BoÄŸa burcusunuz.");
 			} else {
-				System.out.println("Yanlış işlem yaptınız. Tekrar deneyiniz.");
+				System.out.println("YanlÄ±ÅŸ iÅŸlem yaptÄ±nÄ±z. Tekrar deneyiniz.");
 			}
 		}
 		if (ay == 5) {
 			if (gun >= 1 && gun <= 21) {
-				System.out.println("Boğa burcusunuz.");
+				System.out.println("BoÄŸa burcusunuz.");
 			} else if (gun <= 31) {
-				System.out.println("İkizler burcusunuz.");
+				System.out.println("Ä°kizler burcusunuz.");
 			} else {
-				System.out.println("Yanlış işlem yaptınız. Tekrar deneyiniz.");
+				System.out.println("YanlÄ±ÅŸ iÅŸlem yaptÄ±nÄ±z. Tekrar deneyiniz.");
 			}
 		}
 		if (ay == 6) {
 			if (gun >= 1 && gun <= 22) {
-				System.out.println("İkizler burcusnuz.");
+				System.out.println("Ä°kizler burcusnuz.");
 			} else if (gun <= 30) {
-				System.out.println("Yengeç burcusunuz.");
+				System.out.println("YengeÃ§ burcusunuz.");
 			} else {
-				System.out.println("Yanlış işlem yaptınız. Tekrar deneyiniz.");
+				System.out.println("YanlÄ±ÅŸ iÅŸlem yaptÄ±nÄ±z. Tekrar deneyiniz.");
 			}
 		}
 		if (ay == 7) {
 			if (gun >= 1 && gun <= 22) {
-				System.out.println("Yengeç burcusunuz.");
+				System.out.println("YengeÃ§ burcusunuz.");
 			} else if (gun <= 31) {
 				System.out.println("Aslan burcusunuz");
 			} else {
-				System.out.println("Yanlış işlem yaptınız. Tekrar deneyiniz.");
+				System.out.println("YanlÄ±ÅŸ iÅŸlem yaptÄ±nÄ±z. Tekrar deneyiniz.");
 			}
 		}
 		if (ay == 8) {
 			if (gun >= 1 && gun <= 22) {
 				System.out.println("Aslan burcusunuz.");
 			} else if (gun <= 30) {
-				System.out.println("Başak burcusunuz.");
+				System.out.println("BaÅŸak burcusunuz.");
 			} else {
-				System.out.println("Yanlış işlem yaptınız. Tekrar deneyiniz.");
+				System.out.println("YanlÄ±ÅŸ iÅŸlem yaptÄ±nÄ±z. Tekrar deneyiniz.");
 			}
 		}
 		if (ay == 9) {
 			if (gun >= 1 && gun <= 22) {
-				System.out.println("Başak burcusunuz.");
+				System.out.println("BaÅŸak burcusunuz.");
 			} else if (gun <= 31) {
 				System.out.println("Terazi burcusunuz.");
 			} else {
-				System.out.println("Yanlış işlem yaptınız. Tekrar deneyiniz.");
+				System.out.println("YanlÄ±ÅŸ iÅŸlem yaptÄ±nÄ±z. Tekrar deneyiniz.");
 			}
 		}
 		if (ay == 10) {
@@ -123,7 +123,7 @@ public class BurcBulma {
 			} else if (gun <= 31) {
 				System.out.println("Akrep burcusunuz.");
 			} else {
-				System.out.println("Yanlış işlem yaptınız. Tekrar deneyiniz.");
+				System.out.println("YanlÄ±ÅŸ iÅŸlem yaptÄ±nÄ±z. Tekrar deneyiniz.");
 			}
 		}
 		if (ay == 11) {
@@ -132,16 +132,16 @@ public class BurcBulma {
 			} else if (gun <= 30) {
 				System.out.println("Yay burcusunuz.");
 			} else {
-				System.out.println("Yanlış işlem yaptınız. Tekrar deneyiniz.");
+				System.out.println("YanlÄ±ÅŸ iÅŸlem yaptÄ±nÄ±z. Tekrar deneyiniz.");
 			}
 		}
 		if (ay == 12) {
 			if (gun >= 1 && gun <= 21) {
 				System.out.println("Yay Burcusunuz.");
 			} else if (gun <= 31) {
-				System.out.println("Oğlak burcusunuz.");
+				System.out.println("OÄŸlak burcusunuz.");
 			} else {
-				System.out.println("Yanlış işlem yaptınız. Tekrar deneyiniz.");
+				System.out.println("YanlÄ±ÅŸ iÅŸlem yaptÄ±nÄ±z. Tekrar deneyiniz.");
 			}
 		}
 
