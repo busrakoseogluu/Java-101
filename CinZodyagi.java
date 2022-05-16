@@ -7,7 +7,7 @@ public class CinZodyagi {
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.print("Doðum yýlýnýzý giriniz : ");
+		System.out.print("DoÄŸum yÄ±lÄ±nÄ±zÄ± giriniz : ");
 		int yil = scan.nextInt();
 
 		int zodiac = yil % 12;
@@ -17,27 +17,27 @@ public class CinZodyagi {
 		} else if (zodiac == 1) {
 			System.out.println("Horoz");
 		} else if (zodiac == 2) {
-			System.out.println("Köpek");
+			System.out.println("KÃ¶pek");
 		} else if (zodiac == 3) {
 			System.out.println("Domuz");
 		} else if (zodiac == 4) {
 			System.out.println("Fare");
 		} else if (zodiac == 5) {
-			System.out.println("Öküz");
+			System.out.println("Ã–kÃ¼z");
 		} else if (zodiac == 6) {
 			System.out.println("Kaplan");
 		} else if (zodiac == 7) {
-			System.out.println("Tavþan");
+			System.out.println("TavÅŸan");
 		} else if (zodiac == 8) {
 			System.out.println("Ejderha");
 		} else if (zodiac == 9) {
-			System.out.println("Yýlan");
+			System.out.println("YÄ±lan");
 		} else if (zodiac == 10) {
 			System.out.println("At");
 		} else if (zodiac == 11) {
 			System.out.println("Koyun");
 		} else {
-			System.out.println("Hatalý Veri Girdiniz ! Tekrar Deneyiniz !");
+			System.out.println("HatalÄ± Veri Girdiniz ! Tekrar Deneyiniz !");
 		}
 
 	}
