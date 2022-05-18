@@ -10,13 +10,13 @@ public class WhileSifre {
 		boolean isPasswordSuccess = false;
 
 		while (!isPasswordSuccess) {
-			System.out.print("Þifre : ");
+			System.out.print("Åžifre : ");
 			password = scan.nextInt();
 			if (password == 123) {
-				System.out.println("Doðru");
+				System.out.println("DoÄŸru");
 				isPasswordSuccess = true;
 			} else {
-				System.out.println("Yanlýþ");
+				System.out.println("YanlÄ±ÅŸ");
 			}
 		}
 		
