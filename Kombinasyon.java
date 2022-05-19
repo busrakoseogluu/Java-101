@@ -8,9 +8,9 @@ public class Kombinasyon {
 		 */
 		Scanner scan = new Scanner(System.in);
 		int f = 1,f1=1,f2=1;
-		System.out.print("Eleman Sayısı (n) : ");
+		System.out.print("Eleman SayÄ±sÄ± (n) : ");
 		int n = scan.nextInt();
-		System.out.print("Seçim Sayısı (r) : ");
+		System.out.print("SeÃ§im SayÄ±sÄ± (r) : ");
 		int r = scan.nextInt();
 
 		if((n>0 && r>0) && n>=r) {
@@ -26,7 +26,7 @@ public class Kombinasyon {
 		int factorial=f/(f1*f2);
 		System.out.println(factorial);
 		}else {
-			System.out.println("n r'den büyük olmalı!");
+			System.out.println("n r'den bÃ¼yÃ¼k olmalÄ±!");
 		}
 	}
 }
