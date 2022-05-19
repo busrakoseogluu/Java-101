@@ -6,9 +6,9 @@ public class UsluSayi {
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.print("Üssü alınacak sayıyı giriniz : ");
+		System.out.print("ÃœssÃ¼ alÄ±nacak sayÄ±yÄ± giriniz : ");
 		int n = scan.nextInt();
-		System.out.print("Üssü giriniz : ");
+		System.out.print("ÃœssÃ¼ giriniz : ");
 		int r = scan.nextInt();
 		int total = 1;
 		for (int i = 1; i <= r; i++) {
