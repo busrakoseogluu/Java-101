@@ -6,19 +6,19 @@ public class ArmstrongSayi {
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.print("Sayı giriniz : ");
+		System.out.print("SayÄ± giriniz : ");
 		int sayi = scan.nextInt();
 		int sayi1 = sayi;
 		int sayac = 0;
 		int basDegeri;
 		int total, result = 0;
-		// kaç basamak olduğunu bulmak için
+		// kaÃ§ basamak olduÃ°unu bulmak iÃ§in
 		while (sayi1 != 0) {
 			sayi1 /= 10;
 			sayac++;
 		}
 		sayi1 = sayi;
-		// basamak değerlerini bulma ve üssü hesaplama
+		// basamak deÃ°erlerini bulma ve Ã¼ssÃ¼ hesaplama
 		while (sayi1 != 0) {
 			basDegeri = sayi1 % 10;
 			total = 1;
@@ -29,9 +29,9 @@ public class ArmstrongSayi {
 			result += total;
 		}
 		if (sayi == result) {
-			System.out.println(sayi + " bir armstrong sayıdır.");
+			System.out.println(sayi + " bir armstrong sayÄ±dÄ±r.");
 		} else {
-			System.out.println(sayi + " bir armstrong sayı değildir.");
+			System.out.println(sayi + " bir armstrong sayÄ± deÄŸildir.");
 		}
 
 	}
