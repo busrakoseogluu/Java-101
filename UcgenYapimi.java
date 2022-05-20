@@ -6,7 +6,7 @@ public class UcgenYapimi {
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.print("Basamak sayısını giriniz : ");
+		System.out.print("Basamak sayÄ±sÄ±nÄ± giriniz : ");
 		int n = scan.nextInt();
 
 		for (int i = 1; i <= n; i++) {
