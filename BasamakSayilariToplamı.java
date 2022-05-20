@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class BasamakSayilariToplamý {
+public class BasamakSayilariToplamÃ½ {
 
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.print("Sayý Giriniz : ");
+		System.out.print("SayÄ± Giriniz : ");
 		int sayi = scan.nextInt();
 		int result = 0, basDeg, sayac = 0;
 
@@ -15,7 +15,7 @@ public class BasamakSayilariToplamý {
 			sayi /= 10;
 			sayac++;
 		}
-		System.out.println("Basamaklarýn Toplamý : " + result);
+		System.out.println("BasamaklarÄ±n ToplamÄ± : " + result);
 	}
 
 }
