@@ -6,7 +6,7 @@ public class MukemmelSayi {
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.print("Sayı giriniz : ");
+		System.out.print("SayÄ± giriniz : ");
 		int n = scan.nextInt();
 		int carpan = 0;
 
@@ -17,9 +17,9 @@ public class MukemmelSayi {
 		}
 		carpan -= n;
 		if (carpan == n) {
-			System.out.println(n + " bir mükemmel sayıdır. ");
+			System.out.println(n + " bir mÃ¼kemmel sayÄ±dÄ±r. ");
 		} else {
-			System.out.println(n + " bir mükemmel sayı değildir.");
+			System.out.println(n + " bir mÃ¼kemmel sayÄ± deÄŸildir.");
 		}
 
 	}
