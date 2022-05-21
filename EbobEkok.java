@@ -7,13 +7,11 @@ public class EbobEkok {
 		Scanner scan = new Scanner(System.in);
 
 		int ebob = 1, ekok = 1, i = 1, j = 1;
-		System.out.print("Ýlk sayýyý giriniz : ");
+		System.out.print("Ä°lk sayÄ±yÄ± giriniz : ");
 		int n = scan.nextInt();
-		System.out.print("Ýkinci sayýyý giriniz : ");
+		System.out.print("Ä°kinci sayÄ±yÄ± giriniz : ");
 		int m = scan.nextInt();
 
-		//for(int i=1;<=m;i++){
-		// 
 		while (i<=m) {
 			if (n % i == 0 && m % i == 0) {
 				ebob = i;
