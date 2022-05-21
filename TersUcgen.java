@@ -6,7 +6,7 @@ public class TersUcgen {
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.print("Basamak sayısı giriniz : ");
+		System.out.print("Basamak sayÄ±sÄ± giriniz : ");
 		int n = scan.nextInt();
 
 		for (int i = 1; i <= n; i++) {
